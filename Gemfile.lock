@@ -91,9 +91,8 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.8)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.7.0)
-      activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
+    jbuilder (2.11.2)
+      activesupport (>= 5.0.0)
     jquery-rails (4.3.4)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -133,7 +132,6 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)
     minitest (5.14.3)
-    multi_json (1.12.2)
     nio4r (2.5.4)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
@@ -242,7 +240,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   fae-rails
-  jbuilder (~> 2.5)
+  jbuilder (~> 2.11)
   jquery-rails
   listen (~> 3.0.5)
   pg (~> 1.1)
